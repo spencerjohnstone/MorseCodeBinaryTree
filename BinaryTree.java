@@ -1,5 +1,5 @@
 /*
- * Names: Visal Chea 100392137, Spencer Johnstone 100394114, Adam Waito 100401057
+ * Names: Visal Chea, Spencer Johnstone, Adam Waito
  * Description:
  * 
  */
