@@ -68,7 +68,7 @@ public class BinaryTree<T extends Comparable>
 	
 	private void vineToTree( Node r, int s )
 	{
-		int leafCount = (int)(size + 1 - Math.pow(2, Math.log10(size+1)/Math.log10(2)));
+		int leafCount =  size + 1 - (int)Math.pow(2, Math.floor(Math.log(size+1)/Math.log(2)) );
 		compression(r, leafCount);		
 		s -= leafCount;
 		
